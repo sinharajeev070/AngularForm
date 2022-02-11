@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularForm';
+  
+  signIn(logValue:any){
+    console.log(logValue);
+  }
+
+
 }
